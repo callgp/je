@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: admin
+    url: jdbc:mysql://localhost:3306/flipkart
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9095
